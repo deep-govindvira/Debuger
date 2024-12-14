@@ -7,6 +7,6 @@ You have correct c++ code (accepted by coding platforms) which works properly. Y
 
 # How to use this ?
 - First Copy correct(accepted) code to `correct.cpp`
-- Write `testcases.cpp` which generate proper testcases
+- Write `testcases.cpp` which generates proper testcases
 - Write your code in `check.cpp` that you want to test(debug).
 - Open Terminal and write : `check`

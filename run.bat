@@ -1,0 +1,1 @@
+cls && g++ -DLOCAL=1 1.cpp && a.exe && g++ compare.cpp && a.exe

@@ -2,10 +2,14 @@
 using namespace std;
 
 void createTestcases() {
-    int n = 1 + rand() % 10;
-    cout << n << ' ' << endl;
-    for (int i = 0; i < n; i++) {
-        cout << rand() % 10 << ' ';
+    int tc = 1 + rand() % 10;
+    cout << tc << ' ';
+    while(tc--) {
+        int n = 1 + rand() % 20;
+        cout << n << endl;
+        for (int i = 1; i <= n; i++) {
+            cout << (1 + rand() % n) << ' ';
+        }
     }
 }
 
